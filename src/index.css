@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  --bg-color: #283C63;
+  --text-color1: #FBE8D3;
+  --btn-color: #FF7069;
+  --paragraghs: #928A97;
+  --font-size-1: 18px;
+  --font-size-2: 96px;
+  --font-size-3: 24;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  font-family: "Work Sans", sans-serif;
 }
+body .navbar {
+  margin: 3rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+body .navbar .navsec1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .navbar .navsec1 .navimg {
+  font-size: var(--font-size-3);
+}
+body .navbar .navsec1 .navimg img {
+  padding-right: 9rem;
+}
+body .navbar .navsec1 .navlinks {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+body .navbar .navsec1 .navlinks a {
+  text-decoration: none;
+  font-size: var(--font-size-1);
+  color: var(--text-color1);
+  padding-left: 3rem;
+}
+body .navbar .contact a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-color1);
+}/*# sourceMappingURL=index.css.map */
