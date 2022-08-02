@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
-import Button from '../Button';
-import Navbar from '../Navbar';
+import Button from '../Components/Button';
+
 
 
 
@@ -9,8 +8,6 @@ import Navbar from '../Navbar';
 function Homepage() {
   return (
     <>
-    <Navbar />
-    <Router>
         <div className="homepage">
             <div className="textarea">
                 <h3>
@@ -25,7 +22,7 @@ function Homepage() {
             </div>
             
         </div>
-    </Router>
+ 
     </>
   )
 }

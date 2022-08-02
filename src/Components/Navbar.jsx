@@ -1,30 +1,34 @@
 import React from 'react';
-import { BrowserRouter as Router, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navimg from "./images/code.png";
-
+import Service from '../pages/Service'
 
 
 function Navbar() {
 return (
 <>
-  <Router>
+  
     <div className="navbar">
       <div className="navsec1">
         <div className="navimg">
           <img src={Navimg} alt="navbarimage" />
         </div>
         <div className="navlinks">
-          <a href="#">Services</a>
-          <a href="#">Team</a>
-          <a href="#">Testimonials</a>
+          <Link 
+          to='/Service'
+          >
+            Services
+            </Link>
+          <Link to="/Team">Team</Link>
+          <Link to="Testimonials">Testimonials</Link>
         </div>
       </div>
 
         <div className="contact">
-        <a href="#">Contact</a>
+        <a href="">Contact</a>
         </div>
     </div>
-  </Router>
+
 </>
 )
 }
