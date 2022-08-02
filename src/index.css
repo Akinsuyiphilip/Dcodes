@@ -49,4 +49,39 @@ body .navbar .contact a {
   text-align: center;
   text-decoration: none;
   color: var(--text-color1);
+}
+body .Button {
+  display: block;
+  padding: 1.1rem 3rem;
+  width: 5rem;
+  height: 1rem;
+  background: var(--btn-color);
+  text-align: center;
+  border-bottom-right-radius: 0.91rem;
+  border-top-left-radius: 0.91rem;
+  color: var(--text-color1);
+}
+body .homepage {
+  margin: 0rem 0 0;
+  height: 100vh;
+  background: url(./Components/images/Line\ 2.png), url(./Components/images/vr\ 1.png), url(./Components/images/Line\ 1.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 80%, contain, 100%;
+  background-position: right -80px bottom -210px, right 80px bottom -100px, right 0 bottom -100px;
+}
+body .homepage .textarea h3 {
+  font-size: var(--font-size-2);
+  font-weight: 700;
+  margin: 0 20rem 1rem 6rem;
+  color: var(--text-color1);
+}
+body .homepage .textarea h3 span {
+  color: var(--btn-color);
+}
+body .homepage .textarea p {
+  color: var(--paragraghs);
+  padding: 0 54rem 0 7rem;
+}
+body .homepage .btn {
+  margin: 3rem 6.5rem;
 }/*# sourceMappingURL=index.css.map */

@@ -15,6 +15,7 @@ body {
     box-sizing: border-box;
     background-color: var(--bg-color);
     font-family: 'Work Sans', sans-serif;
+
     .navbar {
         margin: 3rem 6rem;
         display: flex;
@@ -57,6 +58,55 @@ body {
                 text-decoration: none;
                 color: var(--text-color1);
             }
+        }
+    }
+
+    .Button {
+        display: block;
+        padding: 1.1rem 3rem;
+        width: 5rem;
+        height: 1rem;
+        background: var(--btn-color);
+        text-align: center;
+        border-bottom-right-radius: .91rem;
+        border-top-left-radius: .91rem;
+        color: var(--text-color1);
+        a {
+            
+        }
+    }
+    .homepage{
+        margin: 0rem  0 0;
+        height: 100vh;
+        background: url(./Components/images/Line\ 2.png),url(./Components/images/vr\ 1.png),url(./Components/images/Line\ 1.png);
+        background-repeat: no-repeat,
+                           no-repeat,
+                           no-repeat;
+        background-size: 80%,
+                         contain,
+                         100%;
+        background-position:right -80px bottom -210px,
+                            right 80px bottom -100px,
+                            right 0 bottom -100px;
+
+
+        .textarea{
+            h3{
+                font-size: var(--font-size-2);
+                font-weight: 700;
+                margin: 0 20rem 1rem 6rem;
+                color: var(--text-color1);
+                span{
+                    color: var(--btn-color);
+                }
+            }
+            p{
+                color: var(--paragraghs);
+                padding: 0 54rem 0 7rem;
+            }
+        }
+        .btn{
+            margin: 3rem 6.5rem;
         }
     }
 }
