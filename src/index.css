@@ -51,11 +51,12 @@ body .navbar .contact a {
   color: var(--text-color1);
 }
 body .Button {
-  display: block;
+  display: flex;
   padding: 1.1rem 3rem;
-  width: 5rem;
+  width: 4rem;
   height: 1rem;
   background: var(--btn-color);
+  align-items: center;
   text-align: center;
   border-bottom-right-radius: 0.91rem;
   border-top-left-radius: 0.91rem;

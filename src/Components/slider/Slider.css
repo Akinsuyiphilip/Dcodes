@@ -1,1 +1,27 @@
-/*# sourceMappingURL=Slider.css.map */
+section {
+  margin: 3rem 5.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+section Button {
+  text-align: center;
+}
+section .firstsec {
+  margin-top: 5rem;
+}
+section .firstsec h2 {
+  color: #FBE8D3;
+  font-size: 72px;
+}
+section .firstsec p {
+  color: #928A97;
+  font-size: 24px;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+section .firstsec .arrows {
+  padding-top: 8rem;
+}
+section .firstsec .arrows img {
+  padding-right: 1.7rem;
+}/*# sourceMappingURL=Slider.css.map */

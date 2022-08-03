@@ -1,0 +1,34 @@
+section{
+    margin: 3rem 5.9rem;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+
+    Button{
+        text-align: center;
+    }
+
+    .firstsec{
+        margin-top: 5rem;
+
+        h2{
+            color: #FBE8D3;
+            font-size: 72px;
+        }
+        p{
+            color: #928A97;
+            font-size: 24px;
+            padding-right: 2rem;
+            padding-bottom: 1rem;
+        }
+        .arrows{
+            padding-top: 8rem;
+            img{
+                padding-right: 1.7rem;
+                ;
+            }
+        }
+    }
+}

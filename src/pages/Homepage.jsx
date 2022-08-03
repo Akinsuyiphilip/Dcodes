@@ -18,7 +18,7 @@ function Homepage() {
                 </p>
             </div>
             <div className="btn">
-            <Button />
+            <Button  text="All Work"/>
             </div>
             
         </div>

@@ -1,13 +1,9 @@
 import React from 'react'
 
-function Button() {
+function Button(props) {
 return (
 <>
-    <div className="Button">
-        <a>
-            All work
-        </a>
-    </div>
+    <div className="Button"> { props.text } </div>
 </>
 )
 }
