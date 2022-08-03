@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navimg from "./images/code.png";
-import Service from '../pages/Service'
+import '../pages/Service';
+import '../pages/Testimonial';
+import '../pages/Team';
 
 
 function Navbar() {
@@ -19,8 +21,16 @@ return (
           >
             Services
             </Link>
-          <Link to="/Team">Team</Link>
-          <Link to="Testimonials">Testimonials</Link>
+          <Link
+           to="/Team"
+           >
+            Team
+            </Link>
+          <Link 
+          to="/Testimonials"
+          >
+            Testimonials
+            </Link>
         </div>
       </div>
 
