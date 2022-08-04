@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Profile from '../Components/carousel/Profiles';
 
 function Team() {
   return (
-    <div>Team</div>
+    <>
+    <h1>Our talents</h1>
+    <Profile />
+
+    </>
   )
 }
 
