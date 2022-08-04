@@ -8,7 +8,7 @@ import './Slider.css'
 
 const Slider = ({ slides }) =>{
 
-const [current, setCurrent] =useState(0);
+const [current, setCurrent] = useState(0);
 const length = slides.length;
 
 const nextSlide = () => {
