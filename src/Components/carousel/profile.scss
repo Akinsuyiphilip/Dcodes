@@ -1,0 +1,19 @@
+.profilescontext{
+    display: flex;
+    
+    .content{
+        padding-right: 3rem;
+
+        img{
+            height: 25rem;
+        }
+        h3{
+            color:#FF7069;
+            font-size: 24;
+        }
+        p{
+            color: #FBE8D3;
+            font-size: 18;
+        }
+    }
+}

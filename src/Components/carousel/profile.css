@@ -1,0 +1,17 @@
+.profilescontext {
+  display: flex;
+}
+.profilescontext .content {
+  padding-right: 3rem;
+}
+.profilescontext .content img {
+  height: 25rem;
+}
+.profilescontext .content h3 {
+  color: #FF7069;
+  font-size: 24;
+}
+.profilescontext .content p {
+  color: #FBE8D3;
+  font-size: 18;
+}/*# sourceMappingURL=profile.css.map */

@@ -16,7 +16,7 @@ body {
     background-color: var(--bg-color);
     font-family: 'Work Sans', sans-serif;
 
-    .navbar {
+    .navbar { 
         margin: 3rem 6rem;
         display: flex;
         justify-content: space-between;
@@ -106,6 +106,13 @@ body {
         }
         .btn{
             margin: 3rem 6.5rem;
+        }
+    }
+    .team{
+        h1{
+            margin: 3rem 6rem;
+            color: var(--text-color1);
+            font-size: 72px;
         }
     }
 }
