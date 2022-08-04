@@ -45,7 +45,7 @@ if(!Array.isArray(slides) || slides.length <= 0 ){ return null } ; return ( <>
         {Dataslider.map((slide, index) => {
         return(
         <div className={index===current ? 'slide active' : 'slide' } key={index}>
-            {index === current && <img src={slide.img} alt=" travel images" /> }
+            {index === current && <img src={slide.img} alt="images" /> }
 
         </div>
 
