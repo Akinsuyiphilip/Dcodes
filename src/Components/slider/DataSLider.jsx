@@ -3,7 +3,7 @@
         
         title:"Astro Craft - Keep tracing and capture venture",
         Sub: "Augmation reality solution with latest technology enhances real estate.",
-        img: './imageslider/Img.jpg',
+        img: './imageslider/Img.png',
     },
     {
         
