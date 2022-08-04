@@ -8,34 +8,54 @@ import './Slider.css'
 
 const Slider = ({ slides }) =>{
 
-    const [current, setCurrent] =useState(0);
-    const  lenght = slides.lenght;
+const [current, setCurrent] =useState(0);
+const length = slides.length;
 
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null
-    }
-
-return (
-<>
-    <section>
-        <div className="firstsec">
-            {Dataslider.map((slide, index) => { return( < h2>{slide.title}</h2>)})}
-            {Dataslider.map((slide, index) => { return( <p >{slide.Sub}</p>)})}
-            <Button text="Learn more" />
-            
-            <div className="arrows">
-            <img src={Leftarrow} alt="" />
-            <img src={Rightarrow} alt="" />
-            </div>
-            
-        </div>
-        <div className="imga">
-            {Dataslider.map((slide, index) => { return( <img src={slide.img} alt=" travel images" /> ) })}
-        </div>
-    </section>
-
-</>
-)
+const nextSlide = () => {
+setCurrent(current === length - 1 ? 0 : current +1);
+};
+const prevSlide = () => {
+setCurrent(current === 0 ? length - 1 : current -1);
 }
 
-export default Slider
+if(!Array.isArray(slides) || slides.length <= 0 ){ return null } ; return ( <>
+    <section>
+        <div className="firstsec">
+            {Dataslider.map((slide, index) => { return(
+
+            <div className={index === current ? 'slide active' : 'slide' } key={index}>
+                {index === current && < h2>{slide.title}</h2> }
+            </div>
+            )})}
+            {Dataslider.map((slide, index) => { return( 
+                <div
+                className={ index === current ? 'slide active' : 'slide'} key={index}>
+                    {index === current && <p>{slide.Sub}</p>}
+                </div>
+            )})}
+            <Button text="Learn more" />
+
+            <div className="arrows">
+                <img src={Leftarrow} alt="" onClick={prevSlide} />
+                <img src={Rightarrow} alt="" onClick={nextSlide} />
+            </div>
+
+        </div>
+
+        {Dataslider.map((slide, index) => {
+        return(
+        <div className={index===current ? 'slide active' : 'slide' } key={index}>
+            {index === current && <img src={slide.img} alt=" travel images" /> }
+
+        </div>
+
+
+        ) })}
+
+    </section>
+
+    </>
+    )
+    }
+
+    export default Slider
