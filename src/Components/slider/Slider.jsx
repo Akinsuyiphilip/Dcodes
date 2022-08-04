@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Dataslider from './DataSLider';
 import Leftarrow from './Leftarrow.png';
 import Rightarrow from './Rightarrow.png';
@@ -6,7 +6,15 @@ import Button from '../Button';
 import './Slider.css'
 
 
-const Slider = () =>{
+const Slider = ({ slides }) =>{
+
+    const [current, setCurrent] =useState(0);
+    const  lenght = slides.lenght;
+
+    if (!Array.isArray(slides) || slides.length <= 0) {
+        return null
+    }
+
 return (
 <>
     <section>
