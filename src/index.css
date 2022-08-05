@@ -65,7 +65,7 @@ body .Button {
 body .homepage {
   margin: 0rem 0 0;
   height: 100vh;
-  background: url(./Components/images/Line\ 2.png), url(./Components/images/vr\ 1.png), url(./Components/images/Line\ 1.png);
+  background: url(./Components/images/Line2.png), url(./Components/images/vr\ 1.png), url(./Components/images/Line1.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 80%, contain, 100%;
   background-position: right -80px bottom -210px, right 80px bottom -100px, right 0 bottom -100px;
@@ -92,8 +92,8 @@ body .team h1 {
   font-size: 72px;
 }
 body .testimonial {
-  background: url(./Components/images/Line\ 2.png), url(./Components/images/Line\ 1.png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 80%, 100%;
-  background-position: right -80px bottom -210px, right 0 bottom -100px;
+  background: url(./Components/images/Line1.png), url(./Components/images/Line2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right 0 bottom -80px;
 }/*# sourceMappingURL=index.css.map */

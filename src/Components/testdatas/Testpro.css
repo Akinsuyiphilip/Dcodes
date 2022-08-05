@@ -1,1 +1,39 @@
-/*# sourceMappingURL=Testpro.css.map */
+.tet {
+  margin: 3rem 6rem 0;
+  display: flex;
+}
+.tet .leftside .letqu {
+  padding-top: 4rem;
+}
+.tet .leftside h1 {
+  font-size: 72px;
+  color: #FBE8D3;
+  padding-right: 10rem;
+}
+.tet .leftside .picseg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tet .leftside .picseg .proimg img {
+  height: 48px;
+  padding-right: 1rem;
+}
+.tet .leftside .picseg .proword h3 {
+  color: #FF7069;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+}
+.tet .leftside .picseg .proword p {
+  color: #FBE8D3;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.tet .rightside img {
+  height: 760px;
+  width: 570px;
+  padding-top: 4rem;
+}/*# sourceMappingURL=Testpro.css.map */

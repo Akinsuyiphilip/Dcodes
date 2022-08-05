@@ -5,6 +5,9 @@ import Service from './pages/Service'
 import Navbar from './Components/Navbar';
 import Team from './pages/Team';
 import Testimonial from './pages/Testimonial';
+import Routest from './Route';
+
+
 
 function App() {
 return (
@@ -13,19 +16,17 @@ return (
     <Navbar />
   </div>
   <div className="content">
+
+
     <Switch>
+      {Routest.map((b, index) => {
+      <Route path={b.path} exact>{b.component} </Route>
+
+      })}
       <Route path='/' exact>
         <Homepage />
       </Route>
-      <Route path='/Service' exact>
-        <Service />
-      </Route>
-      <Route path='/Team'>
-        <Team />
-      </Route>
-      <Route path='/Testimonial' exact>
-        <Testimonial />
-      </Route>
+
     </Switch>
   </div>
 

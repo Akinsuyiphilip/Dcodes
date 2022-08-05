@@ -10,11 +10,16 @@ import '../pages/Contact'
 function Navbar() {
 return (
 <>
-  
-    <div className="navbar">
+  <div className="navbar">
       <div className="navsec1">
         <div className="navimg">
-          <img src={Navimg} alt="navbarimage" />
+          
+          <Link
+          
+          to='/'>
+          <img src={Navimg} alt="navbarimage"   />
+          </Link>
+       
         </div>
         <div className="navlinks">
           <Link 
@@ -43,6 +48,7 @@ return (
             </Link>
         </div>
     </div>
+      
 
 </>
 )

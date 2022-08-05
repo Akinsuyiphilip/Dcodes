@@ -16,18 +16,19 @@ body {
     background-color: var(--bg-color);
     font-family: 'Work Sans', sans-serif;
 
-    .navbar { 
+    .navbar {
         margin: 3rem 6rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-
+        
         .navsec1 {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            
 
             .navimg {
                 font-size: var(--font-size-3);
@@ -72,56 +73,59 @@ body {
         border-bottom-right-radius: .91rem;
         border-top-left-radius: .91rem;
         color: var(--text-color1);
-        
+
     }
-    .homepage{
-        margin: 0rem  0 0;
+
+    .homepage {
+        margin: 0rem 0 0;
         height: 100vh;
-        background: url(./Components/images/Line\ 2.png),url(./Components/images/vr\ 1.png),url(./Components/images/Line\ 1.png);
+        background: url(./Components/images/Line2.png), url(./Components/images/vr\ 1.png), url(./Components/images/Line1.png);
         background-repeat: no-repeat,
-                           no-repeat,
-                           no-repeat;
+            no-repeat,
+            no-repeat;
         background-size: 80%,
-                         contain,
-                         100%;
-        background-position:right -80px bottom -210px,
-                            right 80px bottom -100px,
-                            right 0 bottom -100px;
+            contain,
+            100%;
+        background-position: right -80px bottom -210px,
+            right 80px bottom -100px,
+            right 0 bottom -100px;
 
 
-        .textarea{
-            h3{
+        .textarea {
+            h3 {
                 font-size: var(--font-size-2);
                 font-weight: 700;
                 margin: 0 20rem 1rem 6rem;
                 color: var(--text-color1);
-                span{
+
+                span {
                     color: var(--btn-color);
                 }
             }
-            p{
+
+            p {
                 color: var(--paragraghs);
                 padding: 0 54rem 0 7rem;
             }
         }
-        .btn{
+
+        .btn {
             margin: 3rem 6.5rem;
         }
     }
-    .team{
-        h1{
+
+    .team {
+        h1 {
             margin: 3rem 6rem;
             color: var(--text-color1);
             font-size: 72px;
         }
     }
-   .testimonial{
-    background: url(./Components/images/Line\ 2.png),url(./Components/images/Line\ 1.png);
-    background-repeat: no-repeat,                      
-                       no-repeat;
-    background-size: 80%,                    
-                     100%;
-    background-position:right -80px bottom -210px,
-                        right 0 bottom -100px;
-   }
+
+    .testimonial {
+        background: url(./Components/images/Line1.png), url(./Components/images/Line2.png);
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-position:right 0 bottom -80px;
+    }
 }
