@@ -4,6 +4,7 @@ import Navimg from "./images/code.png";
 import '../pages/Service';
 import '../pages/Testimonial';
 import '../pages/Team';
+import '../pages/Contact'
 
 
 function Navbar() {
@@ -27,15 +28,19 @@ return (
             Team
             </Link>
           <Link 
-          to="/Testimonials"
+          to="/Testimonial"
           >
-            Testimonials
+            Testimonial
             </Link>
         </div>
       </div>
 
         <div className="contact">
-        <a href="">Contact</a>
+        <Link 
+          to="/Contact"
+          >
+            Contact
+            </Link>
         </div>
     </div>
 
