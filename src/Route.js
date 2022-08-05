@@ -6,20 +6,32 @@ import Testimonial from "./pages/Testimonial";
 const Routest = [
     {
         path: '/',
-        component: <Homepage />
+        component: <Homepage />,
+        name:'Homepage',
+        id:'Home page',
+        exact:true,
     },
     {
         path: '/Service',
-        component: <Service />
+        component: <Service />,
+        name:'Service',
+        id:'Service',
+        exact:true,
     },
     {
         path: '/Team',
-        component: <Team />
+        component: <Team />,
+        name:'Team',
+        id:'Team',
+        exact:true,
     },
     {
-        path: '/Testimonial',
-        component: <Testimonial />
-    }
+        path: '/Tastimonial',
+        component: <Testimonial />,
+        name:'Testimonial',
+        id:'Testimonial',
+        exact:true,
+    },
 ]
 
 

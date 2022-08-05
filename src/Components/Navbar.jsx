@@ -16,7 +16,7 @@ return (
           
           <Link
           
-          to='/'>
+          to=''>
           <img src={Navimg} alt="navbarimage"   />
           </Link>
        

@@ -1,10 +1,6 @@
 import React from 'react';
-import Homepage from './pages/Homepage';
-import { BrowserRouter as Router, Switch,Route,} from "react-router-dom";
-import Service from './pages/Service'
+import { BrowserRouter as Router, Switch, Route , Routes} from "react-router-dom";
 import Navbar from './Components/Navbar';
-import Team from './pages/Team';
-import Testimonial from './pages/Testimonial';
 import Routest from './Route';
 
 
@@ -18,16 +14,16 @@ return (
   <div className="content">
 
 
-    <Switch>
-      {Routest.map((b, index) => {
-      <Route path={b.path} exact>{b.component} </Route>
-
-      })}
-      <Route path='/' exact>
-        <Homepage />
-      </Route>
-
-    </Switch>
+    <Routes>
+    {Routest.map((ro, i) => (
+            <Route
+              exact
+              key={i}
+              path={ro.path}
+              element={(<>{ro.component}</>)}
+            />
+          ))}
+    </Routes>
   </div>
 
 </Router>
