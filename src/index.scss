@@ -115,5 +115,13 @@ body {
             font-size: 72px;
         }
     }
-   
+   .testimonial{
+    background: url(./Components/images/Line\ 2.png),url(./Components/images/Line\ 1.png);
+    background-repeat: no-repeat,                      
+                       no-repeat;
+    background-size: 80%,                    
+                     100%;
+    background-position:right -80px bottom -210px,
+                        right 0 bottom -100px;
+   }
 }
