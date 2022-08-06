@@ -18,13 +18,15 @@ const prevSlide = () => {
 setCurrent(current === 0 ? length - 1 : current -1);
 }
 
-if(!Array.isArray(slides) || slides.length <= 0 ){ return null } ; return ( <>
+if(!Array.isArray(slides) || slides.length <= 0 ){ return null } ; 
+
+return ( <>
     <section>
         <div className="firstsec">
             {Dataslider.map((slide, index) => { return(
 
             <div className={index === current ? 'slide active' : 'slide' } key={index}>
-                {index === current && < h2>{slide.title}</h2> }
+                {index === current && <h2>{slide.title}</h2> }
             </div>
             )})}
             {Dataslider.map((slide, index) => { return( 

@@ -1,6 +1,7 @@
 .tet {
     margin: 3rem 6rem 0;
     display: flex;
+    max-height: 180vh;
 
     .leftside {
         .letqu {
@@ -10,7 +11,7 @@
         h1 {
             font-size: 72px;
             color: #FBE8D3;
-            padding-right: 10rem;
+            padding-right: 1rem;
 
         }
 
@@ -46,13 +47,20 @@
                 }
             }
         }
+        .arrows{
+            margin-top: 5rem;
+            img{
+                padding-right: 1rem;
+            }
+        }
     }
 
     .rightside {
         img {
-            height: 760px;
+            height: 700px;
             width: 570px;
-            padding-top: 4rem;
+            padding:  4rem 0 0 3rem;
+            margin-bottom: 0 ;
         }
     }
  

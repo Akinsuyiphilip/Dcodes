@@ -1,6 +1,7 @@
 .tet {
   margin: 3rem 6rem 0;
   display: flex;
+  max-height: 180vh;
 }
 .tet .leftside .letqu {
   padding-top: 4rem;
@@ -8,7 +9,7 @@
 .tet .leftside h1 {
   font-size: 72px;
   color: #FBE8D3;
-  padding-right: 10rem;
+  padding-right: 1rem;
 }
 .tet .leftside .picseg {
   display: flex;
@@ -32,8 +33,15 @@
   font-size: 14px;
   line-height: 16px;
 }
+.tet .leftside .arrows {
+  margin-top: 5rem;
+}
+.tet .leftside .arrows img {
+  padding-right: 1rem;
+}
 .tet .rightside img {
-  height: 760px;
+  height: 700px;
   width: 570px;
-  padding-top: 4rem;
+  padding: 4rem 0 0 3rem;
+  margin-bottom: 0;
 }/*# sourceMappingURL=Testpro.css.map */

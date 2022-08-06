@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route , Routes} from "react-router-dom";
+import { BrowserRouter as Router, Route , Routes} from "react-router-dom";
 import Navbar from './Components/Navbar';
+import Testimonial from './pages/Testimonial';
 import Routest from './Route';
 
 
@@ -23,6 +24,7 @@ return (
               element={(<>{ro.component}</>)}
             />
           ))}
+          
     </Routes>
   </div>
 
