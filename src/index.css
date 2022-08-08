@@ -98,4 +98,74 @@ body .testimonial {
   background-position: right 0 bottom -15px;
   margin-bottom: 0;
   max-height: 190vh;
+}
+body .layers {
+  margin: 3rem 6rem 0;
+}
+body .layers .texts .toplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .layers .texts .toplay h2 {
+  font-size: 4.5rem;
+  color: #FBE8D3;
+  padding-right: 7rem;
+}
+body .layers .texts .toplay h2 span {
+  color: #FF7069;
+}
+body .layers .texts .toplay p {
+  padding-right: 3rem;
+  font-size: 26px;
+  color: #928A97;
+}
+body .layers .texts .bottomlay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+  align-items: center;
+}
+body .layers .texts .bottomlay h4 {
+  color: #FF7069;
+  font-size: 24px;
+}
+body .layers .texts .bottomlay p {
+  color: #928A97;
+  font-size: 18px;
+}
+body .layers .texts .bottomlay .address {
+  width: 25%;
+}
+body .layers .texts .bottomlay .phone {
+  width: 25%;
+}
+body .layers .texts .bottomlay .socials {
+  width: 50%;
+}
+body .layers .texts .bottomlay .socials .linksit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+body .layers .texts .bottomlay .socials .linksit .top,
+body .layers .texts .bottomlay .socials .linksit .mid,
+body .layers .texts .bottomlay .socials .linksit .bott {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .layers .texts .bottomlay .socials .linksit .top a,
+body .layers .texts .bottomlay .socials .linksit .mid a,
+body .layers .texts .bottomlay .socials .linksit .bott a {
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: #928A97;
+  font-size: 18px;
 }/*# sourceMappingURL=index.css.map */

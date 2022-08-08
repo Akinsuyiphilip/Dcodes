@@ -22,13 +22,13 @@ body {
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        
+
         .navsec1 {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            
+
 
             .navimg {
                 font-size: var(--font-size-3);
@@ -124,11 +124,88 @@ body {
 
     .testimonial {
         background: url(./Components/images/Line1.png), url(./Components/images/Line2.png);
-        background-repeat:no-repeat;
-        background-size:100%;
-        background-position:right 0 bottom -15px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: right 0 bottom -15px;
         margin-bottom: 0;
         max-height: 190vh;
 
+    }
+
+    .layers {
+        margin: 3rem 6rem 0;
+
+        .texts {
+            .toplay {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                h2 {
+                    font-size: 4.5rem;
+                    color: #FBE8D3;
+                    padding-right: 7rem;
+
+                    span {
+                        color: #FF7069;
+                    }
+                }
+
+                p {
+                    padding-right: 3rem;
+                    font-size: 26px;
+                    color: #928A97;
+                }
+            }
+
+            .bottomlay{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                flex-basis: 100%;
+                justify-content: space-between;
+                padding-right: 4rem;
+                padding-bottom: 3rem;
+                align-items: center;
+                h4{
+                    color: #FF7069;
+                    font-size: 24px;
+                }
+                p{
+                    color: #928A97;
+                    font-size: 18px;
+                }
+                .address{
+                    width: 25%;
+                }
+                .phone{
+                    width: 25%;
+                }
+                .socials{
+                    width: 50%;
+                    
+                    .linksit{
+                       display: flex;
+                       flex-direction: row;
+                       justify-content: space-between;
+                       padding: 0;
+                       .top,
+                       .mid,
+                       .bott{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                            a{
+                                padding: .5rem 0;
+                                text-decoration: none;
+                                color: #928A97;
+                                font-size: 18px;
+                            }
+                       }
+                    }
+                }
+            }
+        }
     }
 }
